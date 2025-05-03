@@ -28,11 +28,11 @@ Password: epic_guest
 Alternatively, you can access via SSH:
 ```
 https://drive.google.com/drive/u/0/folders/1gY8ZtA_0j8u8SzFG6WW-2v7EmTt2oMSS
-```
 
 ```
-ssh epic_guest@localhost -p 2222  
-Password: epic_guest
+docker run -it --rm epic_challenge
+
+```
 ```
 
 ## Environment Structure

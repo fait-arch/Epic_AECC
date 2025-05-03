@@ -1,35 +1,45 @@
-# Guía para resolver el EPIC Challenge
 
-## Introducción
-Este documento proporciona instrucciones paso a paso para resolver el EPIC Challenge, un ejercicio tipo CTF (Capture The Flag) que implica navegación por directorios, búsqueda de archivos clave, descifrado de contraseñas, y desencriptación de archivos.
+# EPIC Challenge AECC round
 
-## Objetivos del Challenge
-Según la información proporcionada, tu misión es:
-1. Navegar por una compleja estructura de directorios
-2. Encontrar una contraseña cifrada con el cifrado César
-3. Encontrar un archivo objetivo encriptado
-4. Desencriptar el archivo objetivo usando la contraseña encontrada
 
-## Acceso al Entorno
+## Technical Introduction
+This document provides step-by-step instructions to connect and complete this stage of the EPIC Challenge, a CTF (Capture The Flag)-type exercise involving directory navigation, key file search, password decryption, and file decryption.
+
+## Challenge Objectives
+According to the provided information, your mission is:
+
+1. Navigate through a directory structure
+2. Find a password encrypted with Caesar cipher
+3. Find a target encrypted file
+4. Decrypt the target file using the found password
+
+## Accessing the Environment
+### Via browser
 ```
-URL: http://shortline.proxy.rlwy.net:53282/
-Usuario: epic_guest
-Contraseña: epic_guest
+http://shortline.proxy.rlwy.net:53282/
 ```
 
-### Alternativa en local
-Alternativamente, puedes acceder vía SSH:
+```
+User: epic_guest  
+Password: epic_guest
+```
+
+### Local alternative
+Alternatively, you can access via SSH:
 ```
 https://drive.google.com/drive/u/0/folders/1gY8ZtA_0j8u8SzFG6WW-2v7EmTt2oMSS
 ```
 
 ```
-ssh epic_guest@localhost -p 2222
-Contraseña: epic_guest
+ssh epic_guest@localhost -p 2222  
+Password: epic_guest
 ```
 
-## Estructura del Entorno
-El script configura el siguiente entorno:
-- 20 directorios principales (dir1 a dir20)
-- Cada directorio principal contiene 5 subdirectorios (maybehere1 a maybehere5)
-- Cada subdirectorio contiene 5 archivos (file1.txt a file5.txt)
+## Environment Structure
+
+The script sets up the following environment:
+
+* 20 main directories (dir1 to dir20)
+* Each main directory contains 5 subdirectories (maybehere1 to maybehere5)
+* Each subdirectory contains 5 files (file1.txt to file5.txt)
+

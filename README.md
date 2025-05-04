@@ -5,7 +5,7 @@
 <div align="center" style="margin-top: 15px;">
   <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" width="40" height="50" style="margin: 0 12px; vertical-align: middle;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/960px-Google_Colaboratory_SVG_Logo.svg.png" width="82" height="50" style="margin: 0 12px; vertical-align: middle;">
-  <img src="https://d33wubrfki0l68.cloudfront.net/45825999a370278a2d392daafce3e7a95de0fff2/3bada/img/logo/svg/full_colored_light.svg" width="100" height="50" style="margin: 0 12px; vertical-align: middle;">
+  <img src="https://d33wubrfki0l68.cloudfront.net/45825999a370278a2d392daafce3e7a95de0fff2/3bada/img/logo/svg/full_colored_light.svg" width="70" height="50" style="margin: 0 12px; vertical-align: middle;">
 </div>
 
 ---
@@ -88,6 +88,14 @@ You must submit **two files**:
 The submission should follow this format:
 [Colab Deliverable Example](https://colab.research.google.com/drive/1AG0d2z8kajN1Y8asFLcHd6FqHbgoRZf3?usp=sharing)
 
+---
 
+## Metodología de Evaluación
 
-
+| **Criterios** | **Insuficiente (0 Puntos)** | **Aceptable (1 Punto)** | **Bueno (2 Puntos)** | **Excelente (3 Puntos)** | **Peso** |
+|---------------|------------------------------|--------------------------|------------------------|---------------------------|----------|
+| **Análisis del Entorno** | No logra navegar por el sistema ni identificar la estructura básica del desafío. | Identifica la estructura básica pero no detecta las pistas falsas. Realiza exploración limitada. | Realiza una exploración sistemática y detecta las pistas falsas después de analizar el entorno. | Análisis exhaustivo del entorno, rápida identificación de pistas verdaderas y falsas, documentación completa del proceso. | 20% |
+| **Resolución Criptográfica** | No identifica el cifrado César ni logra recuperar la contraseña. | Identifica que existe un cifrado pero necesita ayuda significativa para resolverlo. | Identifica correctamente el cifrado César y recupera la contraseña con mínima asistencia. | Identifica inmediatamente el cifrado César, determina el desplazamiento correcto y recupera la contraseña de forma autónoma. | 25% |
+| **Técnicas de Recuperación** | No logra encontrar el archivo objetivo real ni aplicar técnicas de descifrado. | Encuentra el archivo objetivo pero no logra aplicar todas las técnicas de descifrado necesarias. | Encuentra el archivo objetivo y aplica la mayoría de las técnicas de descifrado con algunos errores menores. | Encuentra el archivo objetivo rápidamente y aplica todas las técnicas de descifrado (AES y múltiples descompresiones) correctamente. | 30% |
+| **Automatización y Scripting** | No implementa ninguna automatización, proceso completamente manual. | Implementa scripts básicos para algunas tareas pero la mayoría del proceso es manual. | Implementa scripts efectivos para automatizar la mayoría de las etapas del desafío. | Desarrolla un sistema de scripts completo que automatiza todo el proceso de principio a fin con manejo de errores. | 15% |
+| **Documentación y Reporte** | No proporciona documentación del proceso de resolución. | Documentación básica que omite detalles importantes del proceso de resolución. | Documentación clara que cubre la mayoría de los pasos y técnicas utilizadas. | Documentación exhaustiva, bien estructurada, con explicaciones detalladas de cada técnica y decisión tomada. | 10% |

@@ -1,5 +1,5 @@
 <div align="center" style="background-color: white; padding: 15px; border-radius: 8px; display: inline-block; margin: 0 auto;">
-  <img src="https://github.com/AECCuide/AECCuide/blob/main/img/logotipoLetrasAECC.svg?raw=true" width="200">
+  <img src="https://ciencialatitud0.github.io/EPIC_5/images/uide.png" width="200">
 </div>
 
 <div align="center" style="margin-top: 15px;">

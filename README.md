@@ -1,15 +1,12 @@
-<div align="center" style="background-color: white; padding: 20px; display: inline-block;">
-  <img src="https://github.com/AECCuide/AECCuide/blob/main/img/logotipoLetrasAECC.svg?raw=true" width="200">
+<div align="center" style="background-color: white; padding: 15px; border-radius: 8px; display: inline-block; margin: 0 auto;">
   <img src="https://github.com/AECCuide/AECCuide/blob/main/img/logotipoLetrasAECC.svg?raw=true" width="200">
 </div>
-<p align="center">
-  <a>
-      <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="python" width="40" height="50"/>
-  </a>
-  <a>
-    <img src="https://d33wubrfki0l68.cloudfront.net/45825999a370278a2d392daafce3e7a95de0fff2/3bada/img/logo/svg/full_colored_light.svg" alt="Bash" width="100" height="50"/>
-  </a>
-</p>
+
+<div align="center" style="margin-top: 15px;">
+  <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" width="40" height="50" style="margin: 0 12px; vertical-align: middle;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/960px-Google_Colaboratory_SVG_Logo.svg.png" width="82" height="50" style="margin: 0 12px; vertical-align: middle;">
+  <img src="https://d33wubrfki0l68.cloudfront.net/45825999a370278a2d392daafce3e7a95de0fff2/3bada/img/logo/svg/full_colored_light.svg" width="100" height="50" style="margin: 0 12px; vertical-align: middle;">
+</div>
 
 ---
 

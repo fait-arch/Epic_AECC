@@ -27,6 +27,9 @@ According to the provided information, your mission is:
 3. Find a target encrypted file
 4. Decrypt the target file using the found password
 
+###  Hint 
+You can use the file weight to find it
+
 ---
 
 ## Accessing the Environment

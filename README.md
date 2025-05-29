@@ -71,6 +71,23 @@ docker run -it --rm epic_challenge
 
 ---
 
+## Encrypted File Handling Process Diagram
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Access via HTTP or Docker]
+    B --> C[Create .sh script to explore folders and decrypt Caesar key]
+    C --> D[Explore folders and search for large file]
+    D --> E[Read and decrypt Caesar key]
+    E --> F[Use key to decrypt file]
+    F --> G[Export decrypted .pdb file to Colab to verify results]
+    G --> H[Review .sh files and .py or .ipynb scripts for result verification]
+    H --> I[Deliver scripts .sh, .py, or .ipynb]
+    I --> J[End]
+```
+
+---
+
 ## Environment Structure
 
 The script sets up the following environment:
